@@ -1,1 +1,42 @@
-p { color: red; }
+.center {
+    text-align: center;
+  }
+  
+body {
+    background-color: lightblue;
+  }
+
+p { color: rgb(111, 175, 203); }
+a { color: rgb(111, 175, 203); }
+
+.profile-image {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the circle */
+    border: 2px solid #fff; /* Optional: Add a border */
+  }
+
+
+  /* Default styles for light theme */
+body {
+    background-color: white;
+    color: #0c0000; /* Dark gray text color */
+  }
+  
+  /* Dark theme styles */
+  body.dark-theme {
+    background-color: #333; /* Dark background color */
+    color: white; /* Light text color */
+  }
+  
+  /* Styles for header and main content */
+  header, main {
+    padding: 20px;
+  }
+  
+  /* Additional styles specific to dark theme */
+  body.dark-theme h1 {
+    color: #FFA500; /* Orange text color */
+  }
+  

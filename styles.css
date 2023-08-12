@@ -1,13 +1,16 @@
 .center {
     text-align: center;
+    padding: 20px;
   }
-  
+
 body {
     background-color: lightblue;
   }
 
-p { color: rgb(111, 175, 203); }
-a { color: rgb(111, 175, 203); }
+h2 { color: rgb(237, 240, 242); font-size: 20px; padding-left: 20px;}
+p2 {color:rgb(111, 175, 203); font-size: 18px; padding-left: 20px;} 
+p { color: rgb(237, 240, 242); font-size: 18px; padding-top: 60px;}
+a { color: rgb(111, 175, 203); font-size: 20px; padding:30px}
 
 .profile-image {
     width: 150px; /* Adjust the size as needed */
@@ -17,17 +20,12 @@ a { color: rgb(111, 175, 203); }
     border: 2px solid #fff; /* Optional: Add a border */
   }
 
-
-  /* Default styles for light theme */
-body {
-    background-color: white;
-    color: #0c0000; /* Dark gray text color */
-  }
   
   /* Dark theme styles */
   body.dark-theme {
     background-color: #333; /* Dark background color */
     color: white; /* Light text color */
+    padding-top: 30px;
   }
   
   /* Styles for header and main content */
@@ -37,6 +35,11 @@ body {
   
   /* Additional styles specific to dark theme */
   body.dark-theme h1 {
-    color: #FFA500; /* Orange text color */
+    padding-top: 30px;
+    color: #ffa600; /* Orange text color */
+    font-size: 30px;
   }
   
+div {
+    padding: 20px;
+}
